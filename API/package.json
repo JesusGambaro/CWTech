@@ -1,0 +1,30 @@
+{
+  "name": "cwtech",
+  "version": "1.0.0",
+  "description": "An simple API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon .",
+    "test": "npx mocha --watch routes.test.js/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesusGambaro/CWTech.git"
+  },
+  "author": "JesusGambaro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JesusGambaro/CWTech/issues"
+  },
+  "homepage": "https://github.com/JesusGambaro/CWTech#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "supertest": "^6.2.4"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.19"
+  }
+}
