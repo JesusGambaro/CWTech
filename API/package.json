@@ -4,12 +4,12 @@
   "description": "An simple API",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon .",
+    "start": "node index.js",
     "test": "npx mocha --watch routes.test.js/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JesusGambaro/CWTech.git"
+    "url": "https://github.com/JesusGambaro/CWTech"
   },
   "author": "JesusGambaro",
   "license": "ISC",
@@ -24,7 +24,6 @@
     "supertest": "^6.2.4"
   },
   "devDependencies": {
-    "mocha": "^10.0.0",
-    "nodemon": "^2.0.19"
+    "mocha": "^10.0.0"
   }
 }
