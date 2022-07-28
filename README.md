@@ -9,7 +9,7 @@ Comandos para el directorio API:
 ### `npm start`
 
 Corre la aplicación en el localhost a traves de la siguiente url:
-[http://localhost:3001](http://localhost:3000), en el caso de ser la version de Heroku su url cambia a la asignada por la misma aplicación: [[https://cwchallenge.herokuapp.com](https://cwchallenge.herokuapp.com)].
+[http://localhost:3001](http://localhost:3000), en el caso de ser la version de Heroku su url cambia a la asignada por la misma aplicación: [https://cwchallenge.herokuapp.com](https://cwchallenge.herokuapp.com).
 
  `npm test` 
 
